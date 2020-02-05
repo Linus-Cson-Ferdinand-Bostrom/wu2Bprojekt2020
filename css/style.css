@@ -1,0 +1,88 @@
+body{
+    display: grid;
+    grid-template-areas:
+    'hd hd'
+    'nv dv'
+    'mn mn'
+    's1 s1'
+    's2 s2'
+    's3 s3'
+    's4 s4'
+    's5 s5'
+    's6 s6'
+    's7 s7'
+    's8 s8'
+    ;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 7fr repeat(9, 6fr);
+    grid-gap: .5em;
+
+    background: lightgray;
+    width: 100vw;
+    height: 500vh;
+}
+
+header{
+    grid-area: hd;
+
+    background: whitesmoke;
+}
+
+nav{
+    grid-area: nv;
+
+    background: whitesmoke;
+}
+
+div{
+    grid-area: dv;
+
+    background: whitesmoke;
+}
+
+main{
+    grid-area: mn;
+
+    background: whitesmoke;
+}
+
+#section1{
+    grid-area: s1;
+
+    background: whitesmoke;
+}
+#section2{
+    grid-area: s2;
+
+    background: whitesmoke;
+}
+#section3{
+    grid-area: s3;
+
+    background: whitesmoke;
+}
+#section4{
+    grid-area: s4;
+
+    background: whitesmoke;
+}
+#section5{
+    grid-area: s5;
+
+    background: whitesmoke;
+}
+#section6{
+    grid-area: s6;
+
+    background: whitesmoke;
+}
+#section7{
+    grid-area: s7;
+
+    background: whitesmoke;
+}
+#section8{
+    grid-area: s8;
+
+    background: whitesmoke;
+}
